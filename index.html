@@ -6,6 +6,9 @@
 <meta name="description" content="Ryan Brander — Creative portfolio. Event production, social media, video editing, and public relations based in Orlando, FL.">
 <meta property="og:title" content="Ryan Brander — Portfolio">
 <meta property="og:description" content="Event production, social media, video editing, and public relations.">
+<meta property="og:image" content="https://ryan-brander.github.io/portfolio/img/preview.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="theme-color" content="#080808">
 <title>Ryan Brander — Portfolio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -475,7 +478,8 @@ footer .fc { animation: pulse 3s ease-in-out infinite; }
 .pc.pc-visible{opacity:1;transform:translateY(0) scale(1)}
 
 /* ORG STRIPE SLIDE IN */
-.org-stripe{opacity:1;transform:none}
+.org-stripe{opacity:0;transform:translateY(16px);animation:stripeIn .7s cubic-bezier(.16,1,.3,1) forwards}
+@keyframes stripeIn{to{opacity:1;transform:translateY(0)}}
 
 /* CHIP RIPPLE */
 @keyframes ripple{to{transform:scale(40);opacity:0}}
@@ -578,7 +582,7 @@ footer .fc { animation: pulse 3s ease-in-out infinite; }
         <div class="pc" data-tip="Season 9 Tribe Photo"><img src="img/2.jpg" alt="Season 9 tribe"><div class="ov"><span class="ov-tag">Season 9</span><p class="ov-name">Tribe Photo</p></div></div>
         <div class="pc" data-tip="Meet the Cast"><img src="img/3.jpg" alt="Cast with name signs"><div class="ov"><span class="ov-tag">Casting Day</span><p class="ov-name">Meet the Cast</p></div></div>
         <div class="pc" data-tip="Season 3 Film Team"><img src="img/4.jpg" alt="Season 3 film team"><div class="ov"><span class="ov-tag">Season 3</span><p class="ov-name">Film Team</p></div></div>
-        <div class="pc" data-tip="Season 3 Challenge"><img src="img/5b.jpg" alt="Season 3 challenge"><div class="ov"><span class="ov-tag">Season 3</span><p class="ov-name">Season Challenge</p></div></div>
+        <div class="pc" data-tip="Season 3 Challenge"><img src="img/5_copy.jpg" alt="Season 3 challenge"><div class="ov"><span class="ov-tag">Season 3</span><p class="ov-name">Season Challenge</p></div></div>
       </div>
     </div>
 
